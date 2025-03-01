@@ -42,7 +42,7 @@ export default function Footer() {
                 {section.links.map((link) => (
                   <li key={link}>
                     <Link
-                      href="https://github.com/Vinay-ponugoti/Financial-tracker/blob/master/README.md"
+                      href="https://github.com/Vinay-ponugoti/chainhub/blob/master/README.md"
                       className="text-sm text-gray-600 hover:text-[#1c75c4] dark:text-gray-400 dark:hover:text-[#64b5f6] transition-colors"
                     >
                       {link}
