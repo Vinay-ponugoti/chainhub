@@ -1,26 +1,46 @@
-# CHAINHUB
+# 🚀 CHAINHUB
 
-CHAINHUB is a blockchain explorer platform that allows users to explore transactions across multiple blockchains, including Ethereum, BSC, and Bitcoin. It provides real-time data and transaction verification.
+**CHAINHUB** is a powerful blockchain explorer that enables users to explore transactions across multiple blockchains including **Ethereum** and **Bitcoin** — all from a unified interface.
 
-## Features
+<div align="center">
+  <img src="./public/demo.png" alt="ChainHub Demo" width="700"/>
+</div>
 
-- **Multi-Chain Support:** Search across Bitcoin, Ethereum, and BSC networks.
-- **Real-Time Data:** Get instant transaction status updates.
-- **Fast & Reliable:** Lightning-fast transaction lookups.
+---
 
-## Installation
+## ✨ Features
 
-To set up the project locally, follow these steps:
+- 🔗 **Multi-Chain Support** — Ethereum & Bitcoin
+- ⚡ **Real-Time Data** — Live transaction status & info
+- 🚀 **Fast & Reliable** — Optimized for performance and scalability
+- 🌐 **Modern UI** — Built with Next.js and TailwindCSS
+- 🔒 **Secure** — Uses trusted APIs like Etherscan & BscScan
 
-1. **Clone the repository:**
+---
 
-   ```bash
-   git clone https://github.com/yourusername/chainhub.git
-   cd chainhub
+## 🛠️ Tech Stack
 
-## Create a .env file in the root directory and add your API keys
+- **Frontend:** Next.js, TypeScript, TailwindCSS
+- **Blockchain APIs:** Etherscan, Blockstream
+- **Infra Tools:** Render, Infura, REST APIs
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/vinay-ponugoti/chainhub.git
+cd chainhub
+
+2. Add Environment Variables
+
 NEXT_PUBLIC_ETHERSCAN_API_KEY=your_etherscan_api_key
 NEXT_PUBLIC_BSCSCAN_API_KEY=your_bscscan_api_key
 
-## watch CHAINHUB come to life
+3. Install Dependencies & Run the App
+
+npm install
 npm run dev
+Visit http://localhost:3000 to see CHAINHUB in action 🎉
