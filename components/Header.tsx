@@ -56,16 +56,16 @@ export default function Header({ onSearch, activeLink }: HeaderProps) {
   };
 
   return (
-    <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
+    <div className={`fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'py-2' : 'py-4'}`}>
       <div className="mx-auto px-4 max-w-7xl">
-        <div className={`glass-card rounded-2xl transition-all duration-300 animate-float ${
+        <div className={`glass-card rounded-2xl  ${
           isScrolled ? 'shadow-lg' : 'shadow-xl'
         }`}>
           <header className="px-6 py-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-8">
                 {/* Updated Logo */}
-                <Link href="/" className="flex items-center gap-1 transition-transform hover:scale-105 group">
+                <Link href="/" className="flex items-center gap-1 ">
                   <div className="h-8 w-8 flex items-center justify-center">
                     <Image
                       src="/icon.png"

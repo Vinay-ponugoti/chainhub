@@ -405,20 +405,7 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Floating navbar styles */
-.navbar-floating {
-  transition: all 0.3s ease;
-}
 
-.navbar-floating.scrolled {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
-}
-
-.dark .navbar-floating.scrolled {
-  background: rgba(17, 24, 39, 0.8);
-}
 
 /* Navbar link hover effect */
 .nav-link {
